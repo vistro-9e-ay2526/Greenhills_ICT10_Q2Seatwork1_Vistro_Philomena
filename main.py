@@ -6,7 +6,7 @@ def verify_candidate(e):
     document.getElementById('output').innerHTML = ' '
     first_name = document.getElementById('firstName').value
     last_name = document.getElementById('lastName').value
-    candidates = ['SAMTEMPLE', 'LANALAZAR', ]
+    candidates = ['SAMTEMPLE', 'LANALAZAR', 'CAINE SOREN', 'ASTRID ELLISON', 'QUINN GAITHER', 'EDILIO ESCOBAR']
     full_name = first_name + last_name
     candidate_verification = ((full_name).upper()) in candidates
 
